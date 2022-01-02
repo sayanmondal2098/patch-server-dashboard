@@ -36,7 +36,7 @@ export default function FeaturedInfo() {
                 <div className="featuredMoneyContainer">
                     <span className="featuredMoney"> 3650 </span>
                     <span className="featuredMoneyRate"> 
-                    11% <ArrowUpwardTwoTone className="featuredIcon negative"/>
+                    11% <ArrowUpwardTwoTone className="featuredIcon"/>
                     </span>
                 </div>
                 <span className="featuredSubject"> Need to be Fix ASAP </span>
