@@ -27,6 +27,13 @@
     font-weight: 600;
 }
 
+.homeWidgetLGDate{
+    font-weight: 300;
+}
+
+.homeWidgetLGSysNo{
+    font-weight: 300;
+}
 
 .homeWidgetLGButton {
     padding: 5px 7px;
