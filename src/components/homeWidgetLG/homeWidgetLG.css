@@ -1,0 +1,56 @@
+.homeWidgetLG{
+    flex: 2;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.homeWidgetLGTitel{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.homeWidgetLGTable{
+    width: 100%;
+    border-spacing: 25px;
+    text-align: center;
+}
+
+.homeWidgetLGTableCell{
+    text-align: center;
+}
+
+.homeWidgetLGUser{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+
+.homeWidgetLGButton {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.homeWidgetLGButton.Failed {
+    background-color: #e5faf1;
+    color: #d95087;
+}
+
+.homeWidgetLGButton.Success {
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+
+.homeWidgetLGButton.Running {
+    background-color: #e5fafe;
+    color: #2a7ade;
+}
+
+.homeWidgetLGButton.Declined {
+    background-color: #fff0f1;
+    color: #886a76;
+}
