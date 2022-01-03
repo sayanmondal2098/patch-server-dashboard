@@ -19,7 +19,7 @@ function App() {
         <div className="container">
           <Sidebar />
           <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
           <Route path="/userlist" element={<UserList />} />
           </Routes>
         </div>
