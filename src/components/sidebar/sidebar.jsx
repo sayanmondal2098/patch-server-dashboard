@@ -1,7 +1,10 @@
 import React from "react";
-import { LineStyle, Timelapse, BarChartOutlined, ComputerTwoTone, Group, GitHub, 
-    Notes ,MailTwoTone, MessageTwoTone,Feedback,VerifiedUser,    } from "@material-ui/icons";
+import {
+    LineStyle, Timelapse, BarChartOutlined, ComputerTwoTone, Group, GitHub,
+    Notes, MailTwoTone, MessageTwoTone, Feedback, VerifiedUser,
+} from "@material-ui/icons";
 import "./sidebar.css";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
     return (
@@ -12,16 +15,18 @@ export default function Sidebar() {
                         Dashboard
                     </h3>
                     <ul className="sidebarList">
+                        <Link to="/" className="link">
+                            <li className="sidebarListItem">
+                                <LineStyle className="sidebarIcon" />
+                                Home
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
-                            <LineStyle className="sidebarIcon"/>
-                            Home
-                        </li>
-                        <li className="sidebarListItem">
-                            <Timelapse className="sidebarIcon"/>
+                            <Timelapse className="sidebarIcon" />
                             Analytics
                         </li>
                         <li className="sidebarListItem">
-                            <BarChartOutlined className="sidebarIcon"/>
+                            <BarChartOutlined className="sidebarIcon" />
                             Stats
                         </li>
                     </ul>
@@ -32,19 +37,21 @@ export default function Sidebar() {
                     </h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <ComputerTwoTone className="sidebarIcon"/>
+                            <ComputerTwoTone className="sidebarIcon" />
                             Devices
                         </li>
+                        <Link to="/user" className="link">
+                            <li className="sidebarListItem">
+                                <Group className="sidebarIcon" />
+                                User
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
-                            <Group className="sidebarIcon"/>
-                            User
-                        </li>
-                        <li className="sidebarListItem">
-                            <GitHub className="sidebarIcon"/>
+                            <GitHub className="sidebarIcon" />
                             Repository
                         </li>
                         <li className="sidebarListItem">
-                            <Notes className="sidebarIcon"/>
+                            <Notes className="sidebarIcon" />
                             Patch Notes
                         </li>
                     </ul>
@@ -55,15 +62,15 @@ export default function Sidebar() {
                     </h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <MailTwoTone className="sidebarIcon"/>
+                            <MailTwoTone className="sidebarIcon" />
                             Mail
                         </li>
                         <li className="sidebarListItem">
-                            <Feedback className="sidebarIcon"/>
+                            <Feedback className="sidebarIcon" />
                             Feed Back
                         </li>
                         <li className="sidebarListItem">
-                            <MessageTwoTone className="sidebarIcon"/>
+                            <MessageTwoTone className="sidebarIcon" />
                             Messages
                         </li>
                     </ul>
@@ -74,15 +81,15 @@ export default function Sidebar() {
                     </h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <VerifiedUser className="sidebarIcon"/>
+                            <VerifiedUser className="sidebarIcon" />
                             Security Team
                         </li>
                         <li className="sidebarListItem">
-                            <Timelapse className="sidebarIcon"/>
+                            <Timelapse className="sidebarIcon" />
                             Analytics
                         </li>
                         <li className="sidebarListItem">
-                            <BarChartOutlined className="sidebarIcon"/>
+                            <BarChartOutlined className="sidebarIcon" />
                             Stats
                         </li>
                     </ul>

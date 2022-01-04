@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import UserList from "./pages/userList/userList";
+import User from "./pages/user/User";
+import NewUser from "./pages/user/NewUser";
 
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
           <Sidebar />
           <Routes>
           <Route path="*" element={<Home />} />
-          <Route path="/userlist" element={<UserList />} />
+          <Route path="/user" element={<UserList />} />
+          <Route path="/user/:userId" element={<User />} />
+          <Route path="/newUser" element={<NewUser />} />
           </Routes>
         </div>
       </div>
