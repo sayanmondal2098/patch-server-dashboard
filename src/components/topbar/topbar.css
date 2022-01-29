@@ -14,11 +14,25 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .topLeft {
+    display: flex;
+    align-items: center;
+  }
+
+  .topbarLogo {
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+  }
   
   .logo {
     font-weight: bold;
     font-size: 30px;
-    color: darkblue;
+    color: darkslategrey;
     cursor: pointer;
   }
   

@@ -41,6 +41,8 @@ export default function FeaturedInfo() {
                 </div>
                 <span className="featuredSubject"> Need to be Fix ASAP </span>
             </div>
+
+            
         </div>
     );
 }
