@@ -46,10 +46,12 @@ export default function Sidebar() {
                                 User
                             </li>
                         </Link>
-                        <li className="sidebarListItem">
-                            <GitHub className="sidebarIcon" />
-                            Repository
-                        </li>
+                        <Link to="/repository" className="link">
+                            <li className="sidebarListItem">
+                                <GitHub className="sidebarIcon" />
+                                Repository
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <Notes className="sidebarIcon" />
                             Patch Notes

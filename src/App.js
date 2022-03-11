@@ -11,6 +11,7 @@ import "./App.css";
 import UserList from "./pages/userList/userList";
 import User from "./pages/user/User";
 import NewUser from "./pages/user/NewUser";
+import Repository from "./pages/repository/repository";
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
           <Route path="/user" element={<UserList />} />
           <Route path="/user/:userId" element={<User />} />
           <Route path="/newUser" element={<NewUser />} />
+          <Route path="/repository" element={<Repository />} />
+
           </Routes>
         </div>
       </div>
