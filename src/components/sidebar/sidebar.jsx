@@ -1,12 +1,15 @@
 import React from "react";
 import {
     LineStyle, Timelapse, BarChartOutlined, ComputerTwoTone, Group, GitHub,
-    Notes, MailTwoTone, MessageTwoTone, Feedback, VerifiedUser,
+    Notes, MailTwoTone, MessageTwoTone, Feedback, VerifiedUser,ExitToApp
 } from "@material-ui/icons";
 import "./sidebar.css";
 import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
+
 
 export default function Sidebar() {
+    const { user } = useAuth0();
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
@@ -95,6 +98,17 @@ export default function Sidebar() {
                             Stats
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div className="sidebarFooter">
+                <div className="sidebarFooterWrapper">
+                    Hello, {user.name}
+                    <Link to="/logout" className="link">
+                        <li className="sidebarListItem">
+                            <ExitToApp className="sidebarIcon" />
+                            Logout
+                        </li>
+                    </Link>
                 </div>
             </div>
         </div>

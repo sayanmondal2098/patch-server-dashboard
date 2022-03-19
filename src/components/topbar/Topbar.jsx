@@ -5,7 +5,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 
 export default function Topbar() {
-  const { user, isAuthenticated, isLoading } = useAuth0();
+  const { user, isAuthenticated } = useAuth0();
   if (isAuthenticated) {
     console.log(user);
     return (
@@ -29,7 +29,7 @@ export default function Topbar() {
             <div className="topbarIconContainer">
               <Settings />
             </div>
-            <img src={user.picture} alt={user.name} className="topAvatar" onMouseOver={user.name} />
+            <img src={user.picture} alt={user.name} className="topAvatar"/>
           </div>
         </div>
       </div>

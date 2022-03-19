@@ -41,3 +41,8 @@
     margin-right: 5px;
     font-size: 20px !important;
 }
+
+.sidebarFooterWrapper{
+    padding: 20px;
+    color: #555;
+}
