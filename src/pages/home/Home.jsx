@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <div className='home'>
             <FeaturedInfo />
-            <Chart data={Userdata} titel="Device Analysis" grid Firstdatakey="Active System" Seconddatakey="Patch Installation" XAxisdataKey="name" />
+            <Chart data={Userdata} titel="Device Analysis" grid Firstdatakey="Active System" Seconddatakey="Patch Installation" XAxisdataKey="name" Thirddatakey="amt"/>
             <div className="homeWidgets">
                 <HomeWidgetSM/>
                 <HomeWidgetLG />
