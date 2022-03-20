@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowDownwardTwoTone, ArrowUpwardTwoTone } from "@material-ui/icons";
 import "./repofeatured.css";
 
 export default function RepoFeaturedInfo() {
