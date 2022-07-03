@@ -1,5 +1,5 @@
 import Topbar from "./components/topbar/Topbar";
-import Sidebar from "./components/sidebar/Sidebar";
+import Sidebar from "./components/sidebar/sidebar";
 
 import Home from "./pages/home/Home";
 import {
@@ -15,6 +15,7 @@ import Repository from "./pages/repository/repository";
 import LoginButton from "./pages/login/login";
 import Logout from "./pages/login/logout";
 import { useAuth0 } from "@auth0/auth0-react";
+import Feedback from "./pages/feedback/Feedback";
 
 
 
@@ -36,7 +37,7 @@ function App() {
               <Route path="/newUser" element={<NewUser />} />
               <Route path="/repository" element={<Repository />} />
               <Route path="/logout" element={<Logout />} />
-
+              <Route path="/feedback" element={<Feedback />} />
 
             </Routes>
           </div>

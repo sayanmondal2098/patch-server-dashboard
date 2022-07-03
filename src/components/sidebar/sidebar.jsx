@@ -70,10 +70,12 @@ export default function Sidebar() {
                             <MailTwoTone className="sidebarIcon" />
                             Mail
                         </li>
-                        <li className="sidebarListItem">
-                            <Feedback className="sidebarIcon" />
-                            Feed Back
-                        </li>
+                        <Link to="/feedback" className="link">
+                            <li className="sidebarListItem">
+                                <Feedback className="sidebarIcon" />
+                                Feed Back
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <MessageTwoTone className="sidebarIcon" />
                             Messages
