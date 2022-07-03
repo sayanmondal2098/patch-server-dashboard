@@ -14,3 +14,10 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+.loginButton {
+    padding-top: 300px;
+    text-align: center;
+    align-items: center;
+
+}
