@@ -24,7 +24,7 @@ export default function UserList() {
         {
             field: 'jobRoll',
             headerName: 'Job Roll',
-            description: 'This column has a value getter and is not sortable.',
+            description: 'This column has a value getter and is sortable.',
             sortable: true,
             width: 160,
 

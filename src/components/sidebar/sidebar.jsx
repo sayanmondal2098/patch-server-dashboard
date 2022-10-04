@@ -1,7 +1,7 @@
 import React from "react";
 import {
     LineStyle, Timelapse, BarChartOutlined, ComputerTwoTone, Group, GitHub,
-    Notes, MailTwoTone, MessageTwoTone, Feedback, VerifiedUser,ExitToApp
+    Notes, MailTwoTone, MessageTwoTone, Feedback, VerifiedUser, ExitToApp
 } from "@material-ui/icons";
 import "./sidebar.css";
 import { Link } from "react-router-dom";
@@ -39,10 +39,12 @@ export default function Sidebar() {
                         Quick Action
                     </h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem">
-                            <ComputerTwoTone className="sidebarIcon" />
-                            Devices
-                        </li>
+                        <Link to="/device" className="link">
+                            <li className="sidebarListItem">
+                                <ComputerTwoTone className="sidebarIcon" />
+                                Devices
+                            </li>
+                        </Link>
                         <Link to="/user" className="link">
                             <li className="sidebarListItem">
                                 <Group className="sidebarIcon" />

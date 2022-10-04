@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import UserList from "./pages/userList/userList";
+import DeviceList from "./pages/deviceList/deviceList";
 import User from "./pages/user/User";
 import NewUser from "./pages/user/NewUser";
 import Repository from "./pages/repository/repository";
@@ -38,6 +39,7 @@ function App() {
               <Route path="/repository" element={<Repository />} />
               <Route path="/logout" element={<Logout />} />
               <Route path="/feedback" element={<Feedback />} />
+              <Route path="/device" element={<DeviceList />} />
 
             </Routes>
           </div>

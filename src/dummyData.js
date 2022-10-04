@@ -145,3 +145,76 @@ export const userRows = [
         StartDate: '01 Jan 2022',
        },
         ];
+
+        export const deviceRows = [
+          { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           },
+           { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           },
+           { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           },
+           { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           },
+           { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           },
+           { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           },
+           { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           },
+           { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           },
+           { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           },
+           { id: 1,
+            devicename: 'Test User', 
+            os: 'testuser@example.com', 
+            osversion: "active",
+            patchDate: '01 Jan 2022',
+            userId: '1'
+           }
+              ];
